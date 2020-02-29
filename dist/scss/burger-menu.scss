@@ -1,0 +1,56 @@
+.burger-menu{
+  border: none;
+  background-color: transparent;
+
+  position: absolute;
+  display: none;
+
+  right: 1em;
+  top: 1em;
+
+  cursor: pointer;
+
+  width: 1.75em;
+  height: 1.75em;
+
+  outline: none !important;
+
+  z-index: 2;
+  transition: 1s;
+
+  &--inner{
+    position: relative;
+    span{
+      @extend %burger-menu--span;
+      top: 0;
+      &:after{
+        @extend %burger-menu--span;
+        top: 0.4em;
+
+      }
+      &:before{
+        @extend %burger-menu--span;
+        top: 0.8em;
+
+      }
+
+    }
+
+  }
+
+}
+
+%burger-menu--span{
+  position: absolute;
+
+  left:0;
+
+  content: '';
+  width: 1.75em;
+  height: 2px;
+
+  background-color: $white;
+
+  border-radius: 0.33em;
+
+}

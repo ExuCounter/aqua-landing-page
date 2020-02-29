@@ -1,0 +1,97 @@
+@media (max-width: 992px) {
+  html {
+    font-size: 14px; }
+  h1 {
+    font-size: 4.5em; }
+  .title-desc {
+    width: 66%;
+    font-size: 1.3em; }
+  .header {
+    padding: 0.25em 0em 6.33em 0em; }
+    .header-main {
+      padding-top: 6em; }
+    .header .burger-menu {
+      display: block; }
+  .products .card {
+    width: 66.66%; }
+  .section-description {
+    display: block;
+    width: 100%;
+    margin-top: 4em; }
+  .nav-bar--logo {
+    text-align: center;
+    margin-top: 1em; }
+  .nav-bar--list {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 1em; }
+  .team {
+    padding-bottom: 1.5em; }
+    .team-slider-img {
+      display: none !important; }
+    .team .section-description {
+      margin-top: 11em; }
+    .team-cards {
+      top: 1.5em; }
+      .team-cards .card:first-child {
+        right: 3.2em; }
+      .team-cards .card:nth-child(2) {
+        right: 2.2em; }
+  .header-nav-bar {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(59, 85, 231, 0.92);
+    z-index: 2;
+    transform: translateY(-1000px) scaleY(0);
+    transition: 1s; } }
+
+@media (max-width: 768px) {
+  html {
+    font-size: 13px; }
+  h1 {
+    font-size: 3.75em; }
+  .title-desc {
+    width: 78%;
+    font-size: 1.1em; }
+  .header {
+    padding: 1.15em 0em 7.33em 0em; }
+    .header-main {
+      padding-top: 5em; } }
+
+@media (max-width: 568px) {
+  html {
+    font-size: 12px; }
+  h1 {
+    font-size: 3.25em; }
+  .title-desc {
+    width: 90%; }
+  .header {
+    padding: 1.15em 0em 4.33em 0em; }
+    .header-main {
+      padding-top: 4em; }
+  .products .card {
+    width: 99.99%; }
+  .team .section-description {
+    width: 99% !important; }
+  .portfolio {
+    padding-bottom: 6.8em; } }
+
+@media (max-width: 360px) {
+  .header .card {
+    width: 18em !important; }
+  .header-main {
+    padding-top: 3em; }
+  .team-cards {
+    top: 1.5em; }
+    .team-cards .card:first-child {
+      right: 0.5em; }
+    .team-cards .card:nth-child(2) {
+      right: 0.25em; }
+  .battery-img {
+    width: 100%; }
+  .portfolio {
+    padding-bottom: 5.8em; } }

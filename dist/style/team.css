@@ -1,0 +1,19 @@
+.team {
+  background-image: url("../img/team-bg.svg");
+  background-size: cover;
+  position: relative; }
+  .team > div {
+    position: relative; }
+  .team-slider-img {
+    height: 100%; }
+  .team .section-description {
+    margin-top: 14em;
+    width: 70% !important;
+    position: relative; }
+  .team-cards {
+    position: absolute;
+    bottom: 0;
+    right: 0; }
+  .team .section-title {
+    position: absolute;
+    top: -0.25em; }

@@ -1,0 +1,64 @@
+.contact{
+  .card{
+    border: none;
+    &-title{
+      font-family: $font-montserrat;
+      font-weight: 500;
+      font-size: 1.075em;
+
+      text-transform: uppercase;
+      color: #C1C1C1;
+
+    }
+    &-text{
+      font-family: $font-montserrat;
+      font-size: 1.075em;
+
+      color: $main-color;
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 3.5em;
+      img{
+        margin: 0.15em 0.3em 0em 0em;
+
+      }
+
+    }
+    &-body{
+      padding: 0;
+
+    }
+
+  }
+  &-row{
+    position: relative;
+    &:after{
+      content: '';
+      position: absolute;
+      height: 1px;
+      width: 97%;
+      margin-left: auto;
+      margin-right: auto;
+
+      background: #C1C1C1;
+
+      bottom: 0;
+      left: -50%;
+      right: -50%;
+
+    }
+
+  }
+  &-description{
+    font-size: 0.8em;
+    font-family: $font-montserrat;
+
+    color: $main-color;
+    p{
+      margin: 0.2em 0em;
+
+    }
+
+  }
+
+}

@@ -1,0 +1,13 @@
+.header {
+  background: url("../img/header-bg.png"); }
+  .header-logo a {
+    display: flex;
+    flex-direction: column;
+    color: #FFF; }
+    .header-logo a * {
+      padding: 0;
+      margin: 0; }
+    .header-logo a p {
+      font-size: 4em; }
+    .header-logo a span {
+      font-size: 0.78em; }

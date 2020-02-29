@@ -1,0 +1,24 @@
+footer{
+  background-color: #0C1B63;
+  padding: 1.5em 0em 1.75em 0em;
+  .nav-bar{
+    padding-bottom: 3em;
+    &:after{
+      content: '';
+      position: absolute;
+      height: 0.5px;
+      width: 96%;
+      margin-left: auto;
+      margin-right: auto;
+
+      background: rgba(255, 255, 255, 0.2);
+
+      bottom: 0.7em;
+      left: -50%;
+      right: -50%;
+
+    }
+
+  }
+
+}

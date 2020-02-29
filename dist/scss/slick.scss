@@ -1,0 +1,54 @@
+.slick-prev:before {
+  content: url(../img/arrow-before-white.svg) !important;
+
+}
+
+.slick-next:before {
+  content: url(../img/arrow.svg) !important;
+
+}
+
+.slick-arrow{
+  border: none;
+  background-color: transparent;
+  color: transparent;
+
+  outline: none;
+  cursor: pointer;
+
+}
+
+.slick-slide {
+  &:focus, a {
+    outline: none;
+  }
+}
+
+.slick-prev{
+  position: absolute;
+
+  left: -5em;
+
+  top: 50%;
+  bottom: 50%;
+  margin-top: auto;
+  margin-bottom: auto;
+
+
+}
+
+.slick-next{
+  position: absolute;
+
+  right: -5em;
+  top: 50%;
+  bottom: 50%;
+  margin-top: auto;
+  margin-bottom: auto;
+
+}
+
+.slick-slider button:focus {
+  outline:0;
+
+}

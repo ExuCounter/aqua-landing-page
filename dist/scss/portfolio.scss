@@ -1,0 +1,83 @@
+.portfolio{
+  margin-top: 4.5em;
+  padding-bottom: 8.8em;
+  .sub-title{
+    font-family: $font-montserrat;
+    text-transform: uppercase;
+
+    color: #212121;
+
+  }
+  &-stats{
+    .stat-wrap{
+      display: flex;
+      .stats-number{
+        color: $light-blue;
+        font-size: 1.5em;
+        font-weight: 700;
+        font-family: $font-montserrat;
+
+      }
+      .stats-desc{
+        margin: 0em 0em 0em 1.32em;
+        line-height: 1.25em;
+        font-size: 1.1em;
+
+      }
+
+    }
+
+  }
+  .bot-container{
+    display: flex;
+    span{
+      font-weight: 500;
+
+    }
+
+  }
+  table{
+    font-family: $font-montserrat;
+    th{
+      color: #212121;
+      font-weight: 400;
+
+      border: {
+        left: $table-border;
+        right: $table-border
+      }
+
+    }
+    td{
+      width: 33.3%;
+      padding: 1em 0.5em 0.75em 1em;
+      border-top: none;
+
+      border: {
+        left: $table-border;
+        right: $table-border
+
+      }
+
+    }
+    tr{
+      &:first-child{
+        border: {
+          top: $table-border;
+
+        }
+
+      }
+      &:last-child{
+        border: {
+          bottom: $table-border;
+
+        }
+
+      }
+
+    }
+
+  }
+
+}
